@@ -1,0 +1,266 @@
+nav{
+	background-color: #050a30;
+	color: white;
+}
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+.links ul li{
+display: inline;
+}
+.links ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 0 15px 0 15px;
+}
+.links{
+	margin-top: 15px;
+}
+.link i{
+	padding-right: 10px;
+}
+.logo{
+	background-image: url('../img/JEIMSEU.png');
+	background-size: contain;
+    height: 20px;
+    width: 100px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+.home{
+	background-image: url('../img/bg-home.png');
+	background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 100px;
+}
+.home h1{
+	font-size: 80px;
+    padding-top: 180px;
+    margin-left: 180px;
+}
+.home h4{
+	font-size: 50px;
+	color: #050a30;
+	margin-left: 180px;
+}
+.home h4 span{
+	color: white;
+}
+.home .hireme{
+	height: 30px;
+	color: white;
+	background-color: #050a30;
+	border-color: #050a30;
+	margin-left: 180px;	
+}
+.btn-outline-light{
+	height: 30px;
+	margin-left: 20px;
+}	
+.about{
+	height: 811px;
+	padding-top: 50px;
+	background-color: #ffffff;
+}
+.about h1{
+	margin-left: 40px;
+    font-size: 50px;
+    margin-top: -20px;
+}
+.blue{
+	margin-left: 40px;
+    width: 132px;
+    height: 5px;
+    background-color: #000c66;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+/* ABOUTME */
+
+.about-me{
+    height: 120vh;
+    background-color: #fff;
+	margin-left: 3%;
+	overflow: hidden;
+	padding-top: 10px;
+}
+.about-me h1{
+	color: #0000ff;
+}
+.underline{
+	height: 5px;
+	width: 110px;
+	background-color: #000c66;
+	margin-left: 2px;
+}
+.pic_profile{
+    height: 470px;
+    margin-top: 5%;
+    background-image: url(../img/james.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.description ul li{
+	color: #000c66;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: 30px;
+
+}
+.description ul li i{
+	color: blue;
+	font-weight: bolder;
+}
+.facts{
+	background-image: url('../img/Layer 4.png');
+	background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding-top: 20px;   
+}
+.underline1 {
+    height: 5px;
+    width: 85px;
+    background-color: #000c66;
+    margin-left: 1px;
+}
+.facts h1{
+	color: #0000ff;
+}
+.facts h2{
+	color: #000c66;
+	padding-top: 40px;
+}
+.facts ul li{
+	list-style: none;
+	font-size: 40px;
+	color: #000c66;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.facts  i{
+	color: #0000ff;
+	padding-right: 10px;
+}
+.resume  {
+	background-image: url('../img/Layer 5.png');
+	background-size: cover;
+    height: 130vh;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+.underline2 {
+    height: 5px;
+    width: 140px;
+    background-color: #000c66;
+    margin-left: 1px;
+}
+.resume h2{
+	padding-top: 20px;
+	color: #050a30;
+}
+.resume ul {
+	font-size: 30px;
+	color: #000c66;
+}
+.Educ ul li{
+	list-style: none;
+}
+.Educ2 ul {
+	list-style: none;
+	padding-top: 20px;	
+}
+.services{
+	background-image: url('../img/Layer 6.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.underline3 {
+    height: 5px;
+    width: 140px;
+    background-color: #000c66;
+    margin-left: 1px;
+}
+.services1 ul li {
+	padding-right: 20px;
+	color: #03076f;
+	list-style: none;
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+.services ul {
+	font-size: 50px;
+	color: #000c66;
+	margin-left: 110px;
+}
+.services i{
+	margin-right: 20px;
+	color: #0000ff;
+}
+.portfolio {
+	background-image: url('../img/Layer 7.png');
+	background-size: cover;
+	height: 97vh;
+	padding-top: 30px;
+	color: #0006b4;
+}
+.underline4{
+	height: 5px;
+    width: 140px;
+    background-color: #000c66;
+    margin-left: 1px;
+    margin-bottom: 100px;
+}
+.lay1{
+	height: 265px;
+	background-image: url('../img/Layer 8.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	margin-right: 150px;
+}
+.lay2{
+	height: 265px;
+	background-image: url('../img/Layer 9.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+}
+.contact {
+	height: 235px;
+    background-color: #0000ff;
+    padding-top: 70px;}
+.des3 ul li{
+	color: white;
+	list-style: none;
+	padding-left: 70px;
+	font-size: 25px;
+	margin-left: 50px;
+}
+.des4 ul li{
+	color: white;
+	list-style: none;
+	padding-left: 30px;
+	font-size: 25px;
+}
+.des3 i {
+	padding-right: 10px;
+	color: #000000;
+}
+.des4 i {
+	padding-right: 10px;
+	color: #000000;
+}
+.reserved {
+	background-color: #000c66;
+	height: 8vh;
+}
+.reserved h1{
+	color: white;
+	margin-left: 250px;
+}
